@@ -7,7 +7,7 @@ uniqueString=$3
 
 seed_node_dns_name="dc0vm0$uniqueString.$location.cloudapp.azure.com"
 
-wget https://github.com/DSPN/install-datastax/archive/master.zip
+wget https://github.com/MurphyRP/azure-resource-manager-dse/blob/master/extensions/install-datastax-master.zip
 apt-get -y install unzip
 unzip master.zip
 cd install-datastax-master/bin
